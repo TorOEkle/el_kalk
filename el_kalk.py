@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-st.header('Maries el kalkulator')
+st.set_page_config( page_title= 'Maries strøm kalkulator', page_icon= 'mag')
+st.header('Maries strøm kalkulator')
 
 dict = {'Vaskemaskin': 2.250,
         'Oppvaskmaskin': 2.250,
